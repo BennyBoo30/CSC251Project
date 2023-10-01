@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Project2_Ben_Oz{
 
-   public static void main(String[] args){
+   public static void main(String[] args) throws IOException{
    
    // open and process text file containing info about Insurance Policy
    
