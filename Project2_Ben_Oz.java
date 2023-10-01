@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Project2_Ben_Oz{
 
-   public static void main(String[] args){
+   public static void main(String[] args) throws IOException{
    
    // open and process text file containing info about Insurance Policy
    
@@ -69,8 +69,8 @@ public class Project2_Ben_Oz{
       System.out.println("Policyholder's Smoking Status (smoker/non-smoker): " + policies.get(i).getSmokeStatus());
       System.out.println("Policyholder's Height: " + policies.get(i).getHolderHeight());
       System.out.println("Policyholder's Weight: " + policies.get(i).getHolderWeight());
-      System.out.println("Policyholder's BMI : " + policies.get(i).getBmi());
-      System.out.println("Policyholder's BMI : ", policies.get(i).getPolicyPrice());
+      System.out.printf("Policyholder's BMI %.2f\n : " + policies.get(i).getBmi());
+      System.out.printf("Policyholder's price %.2f\n : ", policies.get(i).getPolicyPrice());
  
       
       
